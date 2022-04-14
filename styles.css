@@ -1,0 +1,70 @@
+
+nav{
+    display:grid;
+    background-color: lightgray;  
+    text-align: center;  
+    
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        text-align: start;
+        grid-template-columns: 3fr 1fr;
+        margin:10px;
+        padding-left:20px
+    }
+  }
+
+ul{
+    display:grid;  
+    align-items: center;
+    list-style:none;
+    padding:0;
+    
+    
+}
+
+@media screen and (min-width: 1024px) {
+    ul {
+        grid-template-columns: repeat(3,1fr);
+    }
+  }
+
+li{
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none; 
+    color:black;   
+}
+
+
+img{
+    display:grid;
+    place-items: center;
+    width:80%;
+    margin:5px;
+}
+
+@media screen and (min-width: 1024px) {
+    img {
+        display:grid;
+        width:70%;
+        place-items: center;
+    }
+  }
+
+.van_life{
+    text-align: center;  
+    background-color: lightgray;
+}
+
+p{
+    text-align: center;  
+    font-size: 16px;
+    background-color:lightgray;
+    margin:40px;
+}
+
